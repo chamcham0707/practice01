@@ -16,5 +16,5 @@ Content-Type: application/json
 }
 
 ###
-GET localhost:8080/members/1
+GET http://localhost:8080/members/1
 Content-Type: application/json
