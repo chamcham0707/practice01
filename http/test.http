@@ -1,0 +1,20 @@
+POST http://localhost:8080//members
+Content-Type: application/json
+
+{
+  "email": "test",
+  "name": "이름",
+  "age":  20,
+  "phone": "010-0000-0000",
+  "address":  "주소",
+  "assets": "S",
+  "marriedCount":  1,
+  "hasJesa": true,
+  "childrenCount":  0,
+  "hasOwnHouse": true,
+  "carPrice":  100
+}
+
+###
+GET localhost:8080/members/1
+Content-Type: application/json
