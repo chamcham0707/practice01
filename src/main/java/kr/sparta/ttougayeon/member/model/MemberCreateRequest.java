@@ -1,8 +1,10 @@
 package kr.sparta.ttougayeon.member.model;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
+@Schema(description = "멤버 등록할 때 요청하는 DTO")
 @Getter
 public class MemberCreateRequest {
     private String  email;          //  '이메일'
